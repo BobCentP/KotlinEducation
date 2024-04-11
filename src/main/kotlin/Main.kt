@@ -1,12 +1,9 @@
 package org.example
-const val HERO_NAME ="Madrigal"
+
 fun main() {
+    var hasSteed=false
+    println("Удалось герою обзавестись боевым конем - $hasSteed")
+    hasSteed=true
+    println("Удалось герою обзавестись боевым конем - $hasSteed")
 
-    println(HERO_NAME)
-    var playerLevel =4
-    println(playerLevel)
-
-    println("The hero embarks on her journey to locate the enchanted sword.")
-    playerLevel++
-    println(playerLevel)
 }
